@@ -1,8 +1,8 @@
 name: Hello CI
 on: [push]
 jobs:
-  test:
+ test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello CI/CD"
-      - run: echo "Branche : ${{ github.ref_name }} par ${{ github.actor }}"
+    - run: echo "Hello CI/CD"
+    - run: echo "Branche ${{ github.ref_name }} par ${{ github.actor }}"
