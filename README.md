@@ -1,3 +1,4 @@
+![CI Pipeline](https://github.com/Berkaniii/epf-cicd/blob/main/.github/workflows/ci.yml/badge.svg)
 # epf-app — application d'exemple CI/CD
 
 Petite API Express utilisée comme fil rouge des modules *Intégration et Déploiement Continus* et *Projet CI/CD*.
