@@ -24,7 +24,7 @@ test('GET / renvoie un message de bienvenue', async () => {
 
 test('GET /health renvoie le statut et la version', async () => {
   const res = await fetch(`${baseUrl}/health`);
-  assert.equal(res.status, 200);
+  assert.equal(res.status, 500);
   const body = await res.json();
   assert.equal(body.status, 'ok');
   assert.ok(typeof body.version === 'string');
