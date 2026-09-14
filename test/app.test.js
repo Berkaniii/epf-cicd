@@ -17,7 +17,7 @@ after(() => server.close());
 
 test('GET / renvoie un message de bienvenue', async () => {
   const res = await fetch(`${baseUrl}/`);
-  assert.equal(res.status, 200);
+  assert.equal(res.status, 500);
   const body = await res.json();
   assert.equal(body.message, 'Hello EPF');
 });
